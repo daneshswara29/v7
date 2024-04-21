@@ -76,8 +76,8 @@ for i in ${!username[*]}; do
         echo "$date - ${username[$i]} - ${jumlah[$i]}"
         echo "$date - ${username[$i]} - ${jumlah[$i]}" >>/root/log-limit.txt
         TIMES="10"
-        CHATID="-1002015199453"
-        KEY="6409879237:AAE1vPwbqfiWmRkV-AbCa6-tepM5w5FTGz0"
+        CHATID="702916090"
+        KEY="6782550545:AAEQJCiVZvTvu-2vvd5z4I4I4V7-W3lwIyM"
         URL="https://api.telegram.org/bot$KEY/sendMessage"
         TEXT="
 <code>◇━━━━━━━━━━━━━━◇</code>
